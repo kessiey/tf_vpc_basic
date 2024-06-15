@@ -6,7 +6,7 @@ A lightweight VPC module for Terraform.
 
 ```hcl
 module "vpc_basic" {
-  source = "https://github.com/kessiey/tf_vpc_basic.git"
+  source = "github.com/kessiey/tf_vpc_basic"
 
   name = "vpc_name"
 
